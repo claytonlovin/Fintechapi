@@ -4,7 +4,6 @@ WORKDIR /app
 EXPOSE 5001
 EXPOSE 5002
 
-
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 ENV ASPNETCORE_URLS=http://+:5001

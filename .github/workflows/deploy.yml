@@ -1,0 +1,35 @@
+name: Deploy to Docker Swarm
+on:
+  push:
+    branches:
+      - main  # Ajuste para o branch desejado
+jobs:
+  deploy:
+    name: Deploy to Hostinger VPN
+    runs-on: ubuntu-latest
+
+    steps:
+      # Clonar o repositório
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      # Configurar a chave SSH para conexão
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+      
+      # Build da imagem Docker
+      - name: Build Docker Image
+        run: |
+          docker build -t fintechapi:latest .
+      
+      # Deploy no servidor remoto
+      - name: Deploy to Docker Swarm
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPN_USER }}@${{ secrets.VPN_HOST }} << 'EOF'
+            docker service update --force \
+            --image fintechapi:v3 \
+            fintechapi_web || \
+            docker stack deploy --compose-file docker-compose.yml fintechapi
+          EOF
