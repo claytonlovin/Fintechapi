@@ -2,7 +2,7 @@ name: Deploy to Docker Swarm
 on:
   push:
     branches:
-      - main  # Ajuste para o branch desejado
+      - master  # Ajuste para o branch desejado
 jobs:
   deploy:
     name: Deploy to Hostinger VPN
