@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\FintechAPI.csproj": {}
+    "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\FintechAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\FintechAPI.csproj": {
+    "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\FintechAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\FintechAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\FintechAPI.csproj",
         "projectName": "FintechAPI",
-        "projectPath": "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\FintechAPI.csproj",
+        "projectPath": "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\FintechAPI.csproj",
         "packagesPath": "C:\\Users\\Clayton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\obj\\",
+        "outputPath": "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Clayton\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Clayton\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

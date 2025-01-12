@@ -24,10 +24,11 @@ jobs:
         run: |
           docker build -t fintechapi:latest .
       
-      # Deploy no servidor remoto
+      # Deploy no servidor remoto 
       - name: Deploy to Docker Swarm
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.VPN_USER }}@${{ secrets.VPN_HOST }} << 'EOF'
+            cd /home/deploy/DEVOPS/Fintechapi
             docker service update --force \
             --image fintechapi:v3 \
             fintechapi_web || \

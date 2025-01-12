@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N9Qgvxq4SIw=",
+  "dgSpecHash": "y9Ql2Llj0RA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Clayton\\Desktop\\FintechAPI\\Fintechapi\\FintechAPI\\FintechAPI.csproj",
+  "projectFilePath": "C:\\Users\\Clayton\\RiderProjects\\FintechAPI\\FintechAPI\\FintechAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Clayton\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.8\\microsoft.aspnetcore.openapi.8.0.8.nupkg.sha512",
     "C:\\Users\\Clayton\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
