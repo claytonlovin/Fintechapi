@@ -65,3 +65,4 @@ C:\Users\Clayton\Desktop\FintechAPI\Fintechapi\FintechAPI\obj\Debug\net8.0\refin
 C:\Users\Clayton\Desktop\FintechAPI\Fintechapi\FintechAPI\obj\Debug\net8.0\FintechAPI.pdb
 C:\Users\Clayton\Desktop\FintechAPI\Fintechapi\FintechAPI\obj\Debug\net8.0\FintechAPI.genruntimeconfig.cache
 C:\Users\Clayton\Desktop\FintechAPI\Fintechapi\FintechAPI\obj\Debug\net8.0\ref\FintechAPI.dll
+C:\Users\Clayton\RiderProjects\FintechAPI\FintechAPI\obj\Debug\net8.0\FintechAPI.sourcelink.json

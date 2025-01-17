@@ -37,6 +37,14 @@ app.MapGet("/weatherforecast", () =>
     .WithName("GetWeatherForecast")
     .WithOpenApi();
 
+app.MapGet("/printIMC", (double weight, double height) =>
+    {
+        var imc = weight / (height * height);
+        return $"IMC: {imc}";
+    })
+    .WithName("GetIMC")
+    .WithOpenApi();
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
