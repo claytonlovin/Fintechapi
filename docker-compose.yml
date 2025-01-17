@@ -1,6 +1,6 @@
 ﻿services:
   fintechapi:
-    image: claytoncsj/fintechapi:v2
+    image: claytoncsj/fintechapi:v3
     build:
       context: .
       dockerfile: Dockerfile
