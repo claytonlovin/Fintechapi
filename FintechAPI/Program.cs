@@ -45,6 +45,14 @@ app.MapGet("/printIMC", (double weight, double height) =>
     .WithName("GetIMC")
     .WithOpenApi();
 
+app.MapPost("/printIMC", (double weight, double height) =>
+    {
+        var imc = weight / (height * height);
+        return $"IMC: {imc}";
+    })
+    .WithName("PostIMC")
+    .WithOpenApi();
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
